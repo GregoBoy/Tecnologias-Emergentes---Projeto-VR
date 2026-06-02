@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/InteriorCasa.unity
     guid: 0bf62ec41d163294486bfec7ac4199cd
+  - enabled: 1
+    path: Assets/Scenes/cenacasa.unity
+    guid: fd103fb56889a654c9218d06d30ede19
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 236df9f02a92c07458a331e6ba8422ec, type: 2}

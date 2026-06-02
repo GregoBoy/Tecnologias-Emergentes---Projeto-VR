@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-olive" at "2026-06-02T14:25:54.9243469Z"
 Built from '6000.4/staging' branch; Version is '6000.4.2f1 (7a4c1aeef971) revision 8014874'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-olive" at "2026-05-31T07:44:50.2996074Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 7895 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-31T07:44:50Z
+Date: 2026-06-02T14:25:54Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.2f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/olive/Tecnologias-Emergentes---Projeto-VR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61442
+53806
 -licensingIpc
 LicenseClient-olive
 -force-d3d12
@@ -68,12 +68,12 @@ C:/Users/olive/Tecnologias-Emergentes---Projeto-VR
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [12664]  Target information:
+Player connection [13512]  Target information:
 
-Player connection [12664]  * "[IP] 192.168.100.132 [Port] 0 [Flags] 2 [Guid] 1495296143 [EditorId] 1495296143 [Version] 1048832 [Id] WindowsEditor(7,pc_Filipe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13512]  * "[IP] 192.168.100.132 [Port] 0 [Flags] 2 [Guid] 874315115 [EditorId] 874315115 [Version] 1048832 [Id] WindowsEditor(7,pc_Filipe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [12664] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [12664] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13512] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13512] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,7 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 47.67 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 68.39 ms, found 10 plugins.
 Initialize engine version: 6000.4.2f1 (7a4c1aeef971)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/olive/Tecnologias-Emergentes---Projeto-VR/Assets
@@ -103,19 +103,19 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001322 seconds.
+Registered in 0.002121 seconds.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-olive"
 [Licensing::IpcConnector] LicenseClient-olive channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-olive-6000.4.2" at "2026-05-31T07:44:53.2580092Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-olive-6000.4.2" at "2026-06-02T14:25:56.4518893Z"
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -124,23 +124,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.543 seconds
-Domain Reload Profiling: 2557ms
+- Finished resetting the current domain, in  0.456 seconds
+Domain Reload Profiling: 1070ms
 	BeginReloadAssembly (163ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (302ms)
-	LoadAllAssembliesAndSetupDomain (497ms)
-		LoadAssemblies (161ms)
-		AnalyzeDomain (487ms)
-			TypeCache.Refresh (485ms)
-				TypeCache.ScanAssembly (417ms)
-	FinalizeReload (1546ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (159ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (265ms)
+				TypeCache.ScanAssembly (248ms)
+	FinalizeReload (458ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (95ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (179ms)
-			ProcessInitializeOnLoadMethodAttributes (179ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -148,14 +148,14 @@ Begin MonoManager ReloadAssembly
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              85f8d42c2b6f419ca1015c36e34e112e
-  Correlation Id:          b5d4420a82549348bbf7382d944ba97d
-  External correlation Id: 3496194612447387015
+  Session Id:              612df3916a124836b0d40699c47ff817
+  Correlation Id:          33d84be8b98fac42f5cf1d5d1569287c
+  External correlation Id: 7859750733973397762
   Machine Id:              MJoB0y4bPPd5tJj0jW+6CONCpWk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-olive-6000.4.2" (connect: 0.00s, validation: 0.00s, handshake: 1.21s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-olive-6000.4.2-notifications" at "2026-05-31T07:44:54.4684517Z"
-[Licensing::Module] Licensing Background thread has ended after 4.17s
-[Licensing::Module] Licensing is initialized (took 0.39s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-olive-6000.4.2" (connect: 0.00s, validation: 0.00s, handshake: 1.16s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-olive-6000.4.2-notifications" at "2026-06-02T14:25:57.6183195Z"
+[Licensing::Module] Licensing Background thread has ended after 2.69s
+[Licensing::Module] Licensing is initialized (took 0.19s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 4674186154622-UnityPersXXXX
@@ -193,13 +193,13 @@ Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies
 Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
-Refreshing native plugins compatible for Editor in 7.27 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 12.18 ms, found 10 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 6.55 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 7.75 ms, found 10 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -211,598 +211,350 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.641 seconds
-Domain Reload Profiling: 1822ms
-	BeginReloadAssembly (576ms)
-		DisableScriptedObjects (7ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (486ms)
-		LoadAssemblies (380ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (153ms)
-				TypeCache.ScanAssembly (137ms)
-			BuildScriptInfoCaches (40ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (641ms)
+- Finished resetting the current domain, in  0.580 seconds
+Domain Reload Profiling: 1512ms
+	BeginReloadAssembly (347ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (366ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (580ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (135ms)
-			ProcessInitializeOnLoadAttributes (304ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.75 ms, found 10 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4768 unused Assets / (0.8 MB). Loaded Objects now: 5377.
+Memory consumption went from 105.7 MB to 104.9 MB.
+Total: 6.815600 ms (FindLiveObjects: 0.372100 ms CreateObjectMapping: 0.198700 ms MarkObjects: 5.160200 ms  DeleteObjects: 1.081500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.408790 seconds.
+  path: Assets/Scenes/InteriorCasa.unity
+  importAddress: Guid(0bf62ec41d163294486bfec7ac4199cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/InteriorCasa.unity using Guid(0bf62ec41d163294486bfec7ac4199cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '02173ef5627d9846e88ca4267b06ffaf') in 0.0759384 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af2790ec4f203f44f0129b4800b5d964 DependenciesID=587022613607d1af2c2221bf26e16ae6 StaticDependenciesID=f3da71044283a8c43eea059f0e4d532b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 6.47 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.517 seconds
+Domain Reload Profiling: 1158ms
+	BeginReloadAssembly (208ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (306ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (8ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (517ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (4ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 5.77 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 6.40 ms, found 10 plugins.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4761 unused Assets / (1.4 MB). Loaded Objects now: 5369.
-Memory consumption went from 102.0 MB to 100.6 MB.
-Total: 7.625400 ms (FindLiveObjects: 0.878600 ms CreateObjectMapping: 0.289000 ms MarkObjects: 5.335000 ms  DeleteObjects: 1.120700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 389.551050 seconds.
-  path: Assets/pack2/model/textura/bookcase_bookcase_Normal.png
-  importAddress: Guid(aa0be182103d9b848823b62cda4f6877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack2/model/textura/bookcase_bookcase_Normal.png using Guid(aa0be182103d9b848823b62cda4f6877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '870740caad1ef84f3f121bf660a552a0') in 0.1175881 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f68fdfdc56abee4767fc67b63b4a2e1 DependenciesID=7b275584262c62ba6b13313e4331d5d5 StaticDependenciesID=fb461b32da5da25375e237377785495d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.783799 seconds.
-  path: Assets/pack2/model/textura/bookcase_bookcase_BaseColor.png
-  importAddress: Guid(2c91d838e8d6bf945a84dd40c831b07c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack2/model/textura/bookcase_bookcase_BaseColor.png using Guid(2c91d838e8d6bf945a84dd40c831b07c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '902ec36b25efb0b70f6fa874e2638fe3') in 0.124085 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3a0c8b4a23a4ce329c2af28cb731ca4 DependenciesID=2f896b84e394ca56a5831f656f0039ac StaticDependenciesID=4b556b2155012c9139028b715ca75a6c 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 459.522272 seconds.
-  path: Assets/pack3/model/textura/Note_Normal.png
-  importAddress: Guid(c3c744f26ea28434ba9ebc7abcd60f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Note_Normal.png using Guid(c3c744f26ea28434ba9ebc7abcd60f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '484f67fdedadc518bcdb5717d8a09baa') in 0.216049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0db6ebf6d4f5986ad7936d6e6a975e9 DependenciesID=867f119929965a7d1f429571cec53799 StaticDependenciesID=39162d3ab04e94482245ee63adaf8633 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000959 seconds.
-  path: Assets/pack3/model/textura/Table_AO.jpg
-  importAddress: Guid(6ea8cd6345cb6b24599f23006c450043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Table_AO.jpg using Guid(6ea8cd6345cb6b24599f23006c450043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '498908a307ccdd92f1d1de308789ef44') in 0.0477299 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1c0d0bdea1511ee0ce796654241eddd DependenciesID=7d072e9bd0058bf11cb30b0f55650b65 StaticDependenciesID=60947b5d9fe69eece6cbe30f5a7a136a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/pack3/model/textura/Table_metallic.jpg
-  importAddress: Guid(0b68c59cfbe215546bfb4be8f51afd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Table_metallic.jpg using Guid(0b68c59cfbe215546bfb4be8f51afd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '251295cf63a842e0ebfd296cda477e28') in 0.0369415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb5a59e1339e693e55d771db1edcc201 DependenciesID=9ee0ea277f456795750e27f01312b953 StaticDependenciesID=eb866c0640342965f16ff4500d7bf92f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/pack3/model/textura/Open_book_Mat_roughness.jpg
-  importAddress: Guid(85e6036900219864daac1412bc29af05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Open_book_Mat_roughness.jpg using Guid(85e6036900219864daac1412bc29af05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c3a181b16cc5cf9845411ee75bee630f') in 0.0348172 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4302c8aea5154d70f395638f622a5cf DependenciesID=3edcf6cf4248e6eef10de9ede2bdf1f0 StaticDependenciesID=06a6b7fccf69ae56463cca55007ab366 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/pack3/model/textura/Table_albedo.jpg
-  importAddress: Guid(31f1398f5afcbb74aa2cd12ce3e747c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Table_albedo.jpg using Guid(31f1398f5afcbb74aa2cd12ce3e747c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bb5cbd4c4c1994618e4512242be3df3c') in 0.0306371 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58588f60c9b6128322852e97b25a82b7 DependenciesID=f25294d78a77a306df93bf091d0f81ca StaticDependenciesID=9c127a8efdf4eea5d2883f63bd0c6893 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/pack3/model/textura/Open_book_Mat_AO.jpg
-  importAddress: Guid(c0d87c8238242054b96599a9dc32ee64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Open_book_Mat_AO.jpg using Guid(c0d87c8238242054b96599a9dc32ee64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '258f168fc858b8df6e1b19d43f900584') in 0.0318915 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d52d2617cfac39d4b68423c6cc679889 DependenciesID=6100e6de9caccaca955f9377eed23503 StaticDependenciesID=59acd6a28dd342448b76792053862c18 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.542289 seconds.
-  path: Assets/pack3/model/textura/Note_Normal.png
-  importAddress: Guid(c3c744f26ea28434ba9ebc7abcd60f24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Note_Normal.png using Guid(c3c744f26ea28434ba9ebc7abcd60f24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bc488fbea96ad19a4d849e109a7387d6') in 0.100664 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e9a84d509b5bea5dc0265eaa9aa07ac DependenciesID=f088aa5679c6c2d2bf7e65c081a8558b StaticDependenciesID=4968fbf8fca4c2f602934f7f00b2d687 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/pack3/model/textura/Note_3_Roughness.png
-  importAddress: Guid(dc4886f1bc858074bbea8ab38d456be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Note_3_Roughness.png using Guid(dc4886f1bc858074bbea8ab38d456be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '19a2329e61f54de499e37748a6f8958e') in 0.0476604 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e5e4f4303b9d96c552f800305761ae52 DependenciesID=60352dd6aecae504fe8b36bf456ef1b5 StaticDependenciesID=faf62af421cf87398cda3998aa6e18ec 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/pack3/model/textura/Book_3_Mat_normal.png
-  importAddress: Guid(b611e10c5663312479a334f4416b43ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Book_3_Mat_normal.png using Guid(b611e10c5663312479a334f4416b43ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c9428afe6eed7e12cf0e3579e8ec8336') in 0.032616 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47efa903bb3ed6d8f1a6b995555d218b DependenciesID=5fe08aa4061e28146f48edcc2659df78 StaticDependenciesID=afd44b0767028db9815923911453dd6f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/pack3/model/textura/Jar2_roughness.jpg
-  importAddress: Guid(7f292f80b16014844ad18afe7d19eb00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Jar2_roughness.jpg using Guid(7f292f80b16014844ad18afe7d19eb00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5cb3cc0550b9dd14c60935b1e8211d96') in 0.031368 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ce2c17a415e4b731442606cf1246645 DependenciesID=e8a08c3d119ca88b1932eda5532e0f72 StaticDependenciesID=8ee18ea9bd3038180d086d9460e24793 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/pack3/model/textura/Note_3_Normal.png
-  importAddress: Guid(57d8e5edcd3446044a656f6e95c70ac8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Note_3_Normal.png using Guid(57d8e5edcd3446044a656f6e95c70ac8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b4a854daa949c5aeaa6996186d4ec65d') in 0.0334496 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ebf6556f0892bd543d5b623ecd88f36 DependenciesID=8ac33fd56c40e78c490cf87650317874 StaticDependenciesID=b35a1d4b5fc4d461eb979277d40db7ec 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/pack3/model/textura/Lamp_albedo.jpg
-  importAddress: Guid(5eee61ec5e89bf747befc847f066452b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Lamp_albedo.jpg using Guid(5eee61ec5e89bf747befc847f066452b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b33cdb07ab0518759ca6fe23e6f4840a') in 0.0353357 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=081426afbeb445a185f0f9c78c30ba78 DependenciesID=676bafcdd2c1e1ccd10ec1fab78d0b9e StaticDependenciesID=be0ba608cd6824f2758ee56273bea333 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/pack3/model/textura/Note_2_Roughness.png
-  importAddress: Guid(f0695730aad40f44ca514cff96466035) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Note_2_Roughness.png using Guid(f0695730aad40f44ca514cff96466035) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '34f6a6753118a62f1205bccce9b2671f') in 0.0272252 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5756626ae0e47bd5daa3cb068256a20 DependenciesID=cf82a6c9c5bd77dd97045284193d40cd StaticDependenciesID=0ef3637ecd5fb6af5c8fc598f9f3eafd 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/pack3/model/textura/Table_metallic.jpg
-  importAddress: Guid(0b68c59cfbe215546bfb4be8f51afd15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Table_metallic.jpg using Guid(0b68c59cfbe215546bfb4be8f51afd15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '96b17e2c5cd7cedf09e23adc772d7bee') in 0.0255389 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5def9a51d20fed9e7fa8e635500ff74 DependenciesID=f59e15b9da154eff0a88868658f1cfda StaticDependenciesID=a7ea379859eba9141cc66945c3f3dde6 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/pack3/model/textura/Note_3_BaseColor.png
-  importAddress: Guid(761f8fecdd8b93a49920220defbc2c8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Note_3_BaseColor.png using Guid(761f8fecdd8b93a49920220defbc2c8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1652ff3aaf3311172500a3d7c4d4b583') in 0.0245605 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42f2b30f1d633179f890e6600b084b00 DependenciesID=9e227f28a69a11c5a983189ae7cc21b5 StaticDependenciesID=4c24593a9592ce5f74108dfd41979533 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/pack3/model/textura/Table_AO.jpg
-  importAddress: Guid(6ea8cd6345cb6b24599f23006c450043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Table_AO.jpg using Guid(6ea8cd6345cb6b24599f23006c450043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'de67a53b2e0ac7f0035140cb49e67a5a') in 0.0221243 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28b00a4d0f2813bc4623aaaf0538e50b DependenciesID=d0d32f4e17f95f154edfbfcbefa1397c StaticDependenciesID=4201b067d2b00e97014cec578993410a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/pack3/model/textura/Book_3_Mat_albedo.jpg
-  importAddress: Guid(3509fbe0ea07757449a928fdec0f202d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Book_3_Mat_albedo.jpg using Guid(3509fbe0ea07757449a928fdec0f202d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ce87b45fc2632b1142e4567c8b722916') in 0.0231188 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc0a91d95b24c4559f160a617537fc0d DependenciesID=b917a744e2a6b23b56947810e305ac5f StaticDependenciesID=fcc20fdbd2edb8c8de1eb56cf1fe68f3 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/pack3/model/textura/Magnifier_albedo.jpg
-  importAddress: Guid(c9fd94e17c89b3b4ca71301d5aa6d4ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Magnifier_albedo.jpg using Guid(c9fd94e17c89b3b4ca71301d5aa6d4ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ed118dacd317a225513a87603a0db1e9') in 0.0254172 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db6fe7e1dc620033e74e3a3a39e70f5b DependenciesID=95eb355c9ca74bdfc33cc36df9df6e62 StaticDependenciesID=393b6e780e0e66a9cccdc1f147dff517 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/pack3/model/textura/Note_2_BaseColor.png
-  importAddress: Guid(08c044486f4d41944b0de98612c03996) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Note_2_BaseColor.png using Guid(08c044486f4d41944b0de98612c03996) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8b115c732d75877d027f18ae39b26538') in 0.0228996 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74afcbf95706183dd49c2d369ad7001a DependenciesID=69a8d7f3bf6d8bbbc89d18e031374132 StaticDependenciesID=35233c9958a5e3ff13e1e84f67c3b0c3 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/pack3/model/textura/Note_2_Metallic.png
-  importAddress: Guid(7261688bbe8b40c43831bb47ce3cff27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Note_2_Metallic.png using Guid(7261688bbe8b40c43831bb47ce3cff27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '569df0eaa8a96cb3ef68e6bafc2b264f') in 0.0271491 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5833461f2796bd47b7ea135e5ab8463 DependenciesID=543687b26734dff01af87c539feb9080 StaticDependenciesID=945e8b934e2f8ea50a6205b322b1d237 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/pack3/model/textura/Jar_roughness.jpg
-  importAddress: Guid(7ba13945684fd2247b38d5b2449ebb78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Jar_roughness.jpg using Guid(7ba13945684fd2247b38d5b2449ebb78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '10b15776dce1bdfc479312c07734a998') in 0.0263078 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d31d62a94ce1b288dafea4675836988 DependenciesID=61a2f8bdaaa629e67fed01d208f03aa4 StaticDependenciesID=7b23ff3dfee5afbf55f472c2973bb8c7 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/pack3/model/textura/Note_2_Roughness.png
-  importAddress: Guid(f0695730aad40f44ca514cff96466035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Note_2_Roughness.png using Guid(f0695730aad40f44ca514cff96466035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3bb2bcec4c5be30780da06a845ffada5') in 0.0280529 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c1254ab8e255e9b2ffd6e7972fb816f DependenciesID=a3ce657b0eae08a481ec25fda095fdd3 StaticDependenciesID=f5dc05ef523d9dbf5529a6edb003aeff 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/pack3/model/textura/Note_BaseColor.png
-  importAddress: Guid(3965a559846e80246b4474a8025c87f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Note_BaseColor.png using Guid(3965a559846e80246b4474a8025c87f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6aa2023583235edcc0cf3bbd19f2b963') in 0.0223364 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9cb62805c6661b6ebc0048315b2e8df DependenciesID=d392922721caaa44a51b7864848dc2cb StaticDependenciesID=e2418afed27ab4765aed37ab4fd19f57 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/pack3/model/textura/Note_3_Normal.png
-  importAddress: Guid(57d8e5edcd3446044a656f6e95c70ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Note_3_Normal.png using Guid(57d8e5edcd3446044a656f6e95c70ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '823cb8ed193c9d51310a2db2280820bb') in 0.0227958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4aaeed983dcb8e0565db59eafb7773b7 DependenciesID=64fa3506d75d063ee6c5f6927e5d2829 StaticDependenciesID=fa239971ce75542b4e245b81cf19779a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/pack3/model/textura/Note_2_BaseColor.png
-  importAddress: Guid(08c044486f4d41944b0de98612c03996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Note_2_BaseColor.png using Guid(08c044486f4d41944b0de98612c03996) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ec9361fe5673ae705f82c3f7f13208a2') in 0.0227865 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84fed82d5a7270d8c40b085b0fff5920 DependenciesID=f79f265ca2e7f33684ca806d1158ab5f StaticDependenciesID=12bd89a44bd2ce0e3479afcfeec9fa77 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/pack3/model/textura/Magnifier_metallic.jpg
-  importAddress: Guid(97b94bbe40cd5b242b0de2690d9b11bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Magnifier_metallic.jpg using Guid(97b94bbe40cd5b242b0de2690d9b11bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fa03a2d982eb908203cb0c8623dca78a') in 0.0252811 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=434f8528e2c93d8ffc42d8b05e88d463 DependenciesID=9e1cf8d85da020b95f23a12517edf1b6 StaticDependenciesID=e000ae1594cb9be6b93a7171f1fc1c74 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/pack3/model/textura/Note_3_Metallic.png
-  importAddress: Guid(339e2e48f7f97ea40ab8d6461f8451fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Note_3_Metallic.png using Guid(339e2e48f7f97ea40ab8d6461f8451fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4b69ed17976c072c541c8eb7a7ffbd5c') in 0.0130984 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5aec451687d0e8cb9a314a33f3235329 DependenciesID=a716c07ee0aeb14fe52a034462552cf0 StaticDependenciesID=1638097d5cf70925ff84323858915258 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/pack3/model/textura/Table_normal.png
-  importAddress: Guid(550846a92c4c47f45a22ed08d0ab5d35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Table_normal.png using Guid(550846a92c4c47f45a22ed08d0ab5d35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bcc67c940f84ca7be32534c42bc8b35a') in 0.0302406 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31f7807b8484efd570c8704654b3fc0a DependenciesID=c2767d784bedd7b851a17c9a486cae05 StaticDependenciesID=1cab88969c6c38a71bab0197fda0eec0 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/pack3/model/textura/Book_1_Mat_normal.png
-  importAddress: Guid(4819310eee5f3fe468c653b1758bed93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Book_1_Mat_normal.png using Guid(4819310eee5f3fe468c653b1758bed93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '59e0d2663b615a5b952b1e69b3645e1e') in 0.0295415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bcdfb489d33499e9f0a3cfa6029c7840 DependenciesID=55e8bd87f1565ed46a56ba8d8003dcde StaticDependenciesID=8903dc3c76d070ba21c0ff554966c665 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/pack3/model/textura/Jar_albedo.jpg
-  importAddress: Guid(1c76edd19540a2849892e2fb24e24229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Jar_albedo.jpg using Guid(1c76edd19540a2849892e2fb24e24229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b82c69102cd9aec351d3dfe492109908') in 0.0253067 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48e2208602f87d086579326e54c8d910 DependenciesID=59f81b842d4327d3a80e84c27500379f StaticDependenciesID=fa96fd08004431fb4602a4b25b5c657d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/pack3/model/textura/Chair_albedo.jpg
-  importAddress: Guid(c8fdfcedf54700f4b8f34bb23c2423df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Chair_albedo.jpg using Guid(c8fdfcedf54700f4b8f34bb23c2423df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '420d7793f431c952a8de3fd865146d94') in 0.0328541 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2627549332f864837e59169ad3265448 DependenciesID=4c434a4ddd5d71ba53828022a4c9f258 StaticDependenciesID=f9f3c69b52cca317b9db12cd538c2d85 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/pack3/model/textura/Note_2_Metallic.png
-  importAddress: Guid(7261688bbe8b40c43831bb47ce3cff27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Note_2_Metallic.png using Guid(7261688bbe8b40c43831bb47ce3cff27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd296b65154e9fceca2810727a7a95a70') in 0.0103597 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe4d1e76dc7d5be7c478701c7da36602 DependenciesID=7ccb35a239ab2fa000fcb7aa318fb5d8 StaticDependenciesID=dae5877842cd94c257d701be9fbdd688 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/pack3/model/textura/Table_albedo.jpg
-  importAddress: Guid(31f1398f5afcbb74aa2cd12ce3e747c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Table_albedo.jpg using Guid(31f1398f5afcbb74aa2cd12ce3e747c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '81f8eab66daab0931e4b4e7190664946') in 0.0274254 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5ff405a0fec4f3d50e66b870db645a8 DependenciesID=eff063a797e1bcdfe29ea2938c980702 StaticDependenciesID=deca3afc414e636a80c6b89420778ec7 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/pack3/model/textura/Lamp_roughness.jpg
-  importAddress: Guid(50ea1c1c0b0844c458fb1c2ccad5814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Lamp_roughness.jpg using Guid(50ea1c1c0b0844c458fb1c2ccad5814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '75d2161bce6c4a622431a8116a1497fb') in 0.0245399 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e35f2f01b5a9d7ae6736f1cb8daa2da DependenciesID=97477e7bba5705d1cd759275d25d86a7 StaticDependenciesID=a205a707e407e35c939c8c3270a2b9c3 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/pack3/model/textura/Note_2_Normal.png
-  importAddress: Guid(5e09d811a2f853b4ebc85d84d5b184e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Note_2_Normal.png using Guid(5e09d811a2f853b4ebc85d84d5b184e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0973d71434b95caad4b1136e3dfa835e') in 0.0215529 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f0f4a6646b6ca2017e8da209d0c7c86 DependenciesID=0ee0975ff828db3714f5cc7a0f529976 StaticDependenciesID=f8c0f5c1cecc31334e10714aa0c353e0 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/pack3/model/textura/Table_roughness.jpg
-  importAddress: Guid(282bfb74e18546940825ef2ffc973830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Table_roughness.jpg using Guid(282bfb74e18546940825ef2ffc973830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ac9fccb4e546b2b6cb9642bef0dea78f') in 0.0320404 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65cec3a47ed2cb5226ae2d134dac8446 DependenciesID=e132d1988b0c74db8d1c31a6bb0b4776 StaticDependenciesID=f86bfebf563396423e0433cd2dccafa9 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/pack3/model/textura/Jar_normal.png
-  importAddress: Guid(a2fd1a50031c66846a87457f83e4da11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Jar_normal.png using Guid(a2fd1a50031c66846a87457f83e4da11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '44ab1ed456a8d7b5ed7671a4e2e17d49') in 0.0225627 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86f0087e24bcb3468463848cda489541 DependenciesID=82110193b91e6a9be39a59f97016befe StaticDependenciesID=4717e874cfb269bd9c717c925914f254 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/pack3/model/textura/Book_1_Mat_AO.jpg
-  importAddress: Guid(54698a0cb552a7b4492ae80c78c9e623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Book_1_Mat_AO.jpg using Guid(54698a0cb552a7b4492ae80c78c9e623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0815d3391595a36c5cf47c0f2ef2d6de') in 0.0268332 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db2c128e4794c93aca6a47a6ea1c8d65 DependenciesID=dc666bbe2470d339a70543da416437e1 StaticDependenciesID=d2e8b76447f5443834a823db6cd67508 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/pack3/model/textura/Open_book_Mat_metallic.jpg
-  importAddress: Guid(208b7368db924cb47a3cc81c5f277f47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Open_book_Mat_metallic.jpg using Guid(208b7368db924cb47a3cc81c5f277f47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8f6e2329b16b4f0e6b6d1fdf43cf2b3f') in 0.0236116 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab562d094ecb4f69791c86f8d0322943 DependenciesID=1bdd07e531e1ba084812e5439fa68d8f StaticDependenciesID=ab1bcdb0383d7d038878e9d5e23e701f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/pack3/model/textura/Magnifier_opacity.jpg
-  importAddress: Guid(fc5b404f6899eb248a85cb45f8d67245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Magnifier_opacity.jpg using Guid(fc5b404f6899eb248a85cb45f8d67245) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b18b3eb123183234ee0e1a786067b296') in 0.0250592 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e556586c232015027dd82541ffef9f69 DependenciesID=31172dfa9351744914179ef2cf7eec06 StaticDependenciesID=a8c696f5a198f41f1fe0cd5089ff51db 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/pack3/model/textura/Jar2_normal.png
-  importAddress: Guid(41f4c3d7926f1234c8191ad09cd4c74a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Jar2_normal.png using Guid(41f4c3d7926f1234c8191ad09cd4c74a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7a3f4cbb34a250b7cfe2d80d26e13eda') in 0.0218944 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e400311596a666eb25e689bb4d5fe6ba DependenciesID=bb38b548e75dbbbbafd4648ae5dbfa21 StaticDependenciesID=8be3c937cdf2cc4c5a590b09a4627e18 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/pack3/model/textura/Book_2_Mat_albedo.jpg
-  importAddress: Guid(ba49fcba572c70d4082e7b2edbe3add4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Book_2_Mat_albedo.jpg using Guid(ba49fcba572c70d4082e7b2edbe3add4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3011eb2c8c91233b4216a56eedb59b12') in 0.0261779 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb359480d5a1ed28ead1bd2d299dcf11 DependenciesID=028136eab64835cbb15390572ea63f6c StaticDependenciesID=43b5d1f03ef6e902aa86a9e345c0a4e7 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/pack3/model/textura/Lamp_emissive.jpg
-  importAddress: Guid(ccbddd80919953e489bcd07166133cce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Lamp_emissive.jpg using Guid(ccbddd80919953e489bcd07166133cce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f4caf2cc15cfbeb391577b81268cfd95') in 0.0276058 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=39011f588f1a8a744e402b6fa2847655 DependenciesID=0d2e4861bc75bcc1d189d1d650411e94 StaticDependenciesID=08440e0c2c76bf6aa1d6212f3c8d6164 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/pack3/model/textura/Note_3_Metallic.png
-  importAddress: Guid(339e2e48f7f97ea40ab8d6461f8451fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Note_3_Metallic.png using Guid(339e2e48f7f97ea40ab8d6461f8451fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '47b5317d3e56ecf2208a1d34ce220c14') in 0.0332524 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d3e878fd5272a1887047925bbcafd37e DependenciesID=f97de4e96dcad379f678f2b5fe84ff08 StaticDependenciesID=fbbea852d71ff7575b98cfe3ae60d54b 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/pack3/model/textura/Jar2_metallic.jpg
-  importAddress: Guid(1878bac1bc6179b4489d757acd967136) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Jar2_metallic.jpg using Guid(1878bac1bc6179b4489d757acd967136) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2c37f79d422d8f5bbb777b1de47f71a') in 0.0289178 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=022d9ec564e3ef5eeac984e85f9efcc3 DependenciesID=2113d4aa00b7a3b4455528d96ef24e45 StaticDependenciesID=7e08f94510bb606b59b3f394788ea82f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/pack3/model/textura/Book_3_Mat_AO.jpg
-  importAddress: Guid(b5e506d9daaca0e4bb56785c5637baee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Book_3_Mat_AO.jpg using Guid(b5e506d9daaca0e4bb56785c5637baee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '308fdf365c81efcb91ea737016a30386') in 0.0304087 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d913cea5fde875bba893a4bf1304af9 DependenciesID=1d89656cf7fc134ff2ab62e3c75281da StaticDependenciesID=11a9a358911136942f81a31482458720 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/pack3/model/textura/Magnifier_roughness.jpg
-  importAddress: Guid(62ab4fbcb3fbcc04a8a24e4002bdd613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Magnifier_roughness.jpg using Guid(62ab4fbcb3fbcc04a8a24e4002bdd613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '62020c09ad93c65d26f2b8e0b757f9c7') in 0.0252655 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27291a773f183104d0ceede13e667ca0 DependenciesID=068435a40fd451073bc94f92b54c8b50 StaticDependenciesID=a7466ab6b9c17f43373a5220bfac6006 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/pack3/model/textura/Lamp_opacity.jpg
-  importAddress: Guid(94446234358def142bfaeccda363e927) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Lamp_opacity.jpg using Guid(94446234358def142bfaeccda363e927) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f0c799972e4620a4afec742797fda1d7') in 0.029316 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8813c1aca7dfa0099f694635ea3663b1 DependenciesID=4d31538409548952d3fbd243fd59e9dc StaticDependenciesID=1bd669396a00df37b6e1618c8eb042ca 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/pack3/model/textura/Open_book_Mat_normal.png
-  importAddress: Guid(40e0b1db26a13714ca9bd9dcd710f0cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Open_book_Mat_normal.png using Guid(40e0b1db26a13714ca9bd9dcd710f0cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '26ae271f3f286031c673c0239b288911') in 0.0297587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37dd83274a56cc896177820a47618075 DependenciesID=dbce6e3eec07437644e7af4eea93418d StaticDependenciesID=83d1d423f9101b4f4c58e693a44adfa2 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/pack3/model/textura/Jar2_albedo.jpg
-  importAddress: Guid(a1638d9192ac37a4992926686cc9999e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Jar2_albedo.jpg using Guid(a1638d9192ac37a4992926686cc9999e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4b77ec85026c0f4a406a10fc8f885813') in 0.0206481 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5720aec9334e9977863bd676d81ffe7a DependenciesID=451517383bc8f5ec401bde6834865e82 StaticDependenciesID=990362f0a12c017a1b317b1b38c32e18 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/pack3/model/textura/Lamp_AO.jpg
-  importAddress: Guid(aaee8132d577b6b478b9d97786ceab2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/pack3/model/textura/Lamp_AO.jpg using Guid(aaee8132d577b6b478b9d97786ceab2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0e8d61dc4044f0b7c4b4e2a0beb0e84e') in 0.0260554 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b20acdeb7d164ead47985ee4af23fd9 DependenciesID=d1637156e91f52f7273bd80bf499c748 StaticDependenciesID=228390a5ddd930e772bde132c2c1cf6a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.509240 seconds.
-  path: Assets/pack3/model/textura/Label_Roughness.jpg
-  importAddress: Guid(6875c94b79761c4489db4fc8e4030cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Label_Roughness.jpg using Guid(6875c94b79761c4489db4fc8e4030cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e99f1f19fafe88f21a5af35ec03b436d') in 0.0358773 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bffaacb047e0def7c2aaa907a910f579 DependenciesID=1ee44aeece2e578cb1f8ce1732a0206b StaticDependenciesID=5ccf10a57385bde30727056cc67d0caf 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/pack3/model/textura/Lamp_albedo.jpg
-  importAddress: Guid(5eee61ec5e89bf747befc847f066452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Lamp_albedo.jpg using Guid(5eee61ec5e89bf747befc847f066452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '15636e4b1648c5c94cd0f8ed904a016a') in 0.0284552 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c78226db3e8673e4cca9cb4006e5fbf DependenciesID=e213730b20d99c214c33251dcba77b6c StaticDependenciesID=1246c630a6bb713b8261ccdfb17c3869 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/pack3/model/textura/Lamp_metallic.jpg
-  importAddress: Guid(f55bd91614a3c79418348730fdcc97e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Lamp_metallic.jpg using Guid(f55bd91614a3c79418348730fdcc97e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2b440deb8c7150d47ad8b46a1973f233') in 0.028537 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50689c86844b049acf1aca249faab567 DependenciesID=a5f4d0a169793240f44f6ccfa6f7af61 StaticDependenciesID=5e7a2033ac687461d4bb395c30424f7b 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/pack3/model/textura/Lamp_emissive.jpg
-  importAddress: Guid(ccbddd80919953e489bcd07166133cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Lamp_emissive.jpg using Guid(ccbddd80919953e489bcd07166133cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7f26d27d3c4faa23958c082287d377d1') in 0.0242946 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5e0b510f271ffaa8116f61001d4a63b DependenciesID=14897fef48823a15f217601cc40fb3ca StaticDependenciesID=b9a6c79061b62fa908e3e8448927e906 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/pack3/model/textura/Jar_roughness.jpg
-  importAddress: Guid(7ba13945684fd2247b38d5b2449ebb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Jar_roughness.jpg using Guid(7ba13945684fd2247b38d5b2449ebb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '63212bbc0a965e091a5d9149a4c19744') in 0.024164 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=910dbaa6c8984818897a252e3c0b3a08 DependenciesID=668ab25ea02814211e7b058b937f4ba5 StaticDependenciesID=fd4484fb506b1f451fa5d665bb3af14c 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/pack3/model/textura/Jar_metallic.jpg
-  importAddress: Guid(3047bdb6e0083b146b3963e9376aafa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Jar_metallic.jpg using Guid(3047bdb6e0083b146b3963e9376aafa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0d08ea9b73fea79f1bfafc57be53c1e9') in 0.0335918 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5dd2074d8948c30ec000832390d00d6b DependenciesID=a1b2700935b6d6090ea1a4a0e791aeed StaticDependenciesID=cd06150c766e84b261a9a81f8351237d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.210242 seconds.
-  path: Assets/pack3/model/textura/Jar2_albedo.jpg
-  importAddress: Guid(a1638d9192ac37a4992926686cc9999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Jar2_albedo.jpg using Guid(a1638d9192ac37a4992926686cc9999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ab3636cc62f15b31f608ce9eafc1dc31') in 0.0405267 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1d38ac319559ae75e0e66847f12254b DependenciesID=98e622fb41d6006455c1525002e471e5 StaticDependenciesID=884b3267186b6f59a9e15a30da5e9d97 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/pack3/model/textura/Chair_normal.png
-  importAddress: Guid(dcd6d1bf2c4a234448152ff0566954eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Chair_normal.png using Guid(dcd6d1bf2c4a234448152ff0566954eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '933cb69bbb955159d67e79002631cd1d') in 0.0411644 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c86fe5bc276296a033e0dab6e5f84732 DependenciesID=84a2946015ddc961546eb1390df97268 StaticDependenciesID=de1ab07a6cd38f869f6c5d38cf04d568 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/pack3/model/textura/Book_3_Mat_metallic.jpg
-  importAddress: Guid(89c4a68dd18bbd5419153748d60dd0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Book_3_Mat_metallic.jpg using Guid(89c4a68dd18bbd5419153748d60dd0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7c21843bd8d4fe51675a137d7956ac8f') in 0.0360982 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6eda2760be992c6919f8b89eab5579c7 DependenciesID=83d6891844d7a1a7815feb9405dee43d StaticDependenciesID=bc1b26b8b7fcdc9975b4c457eb46a808 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/pack3/model/textura/Bottel_Square_DefaultMaterial_BaseColor.png
-  importAddress: Guid(3724ef1fec4b4d14b9dcdb11d9f287dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Bottel_Square_DefaultMaterial_BaseColor.png using Guid(3724ef1fec4b4d14b9dcdb11d9f287dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '46f756192023c139fd441f32804f9fce') in 0.0314853 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=042794e535cebecbf7bd521c5b158bdb DependenciesID=b89210887d702e8c8fca402541323caa StaticDependenciesID=810fb73e3cbca5f1b27e4453d4ddd97f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/pack3/model/textura/Book_2_Mat_normal.png
-  importAddress: Guid(3131aa62d2a739c45a80970f55c82372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Book_2_Mat_normal.png using Guid(3131aa62d2a739c45a80970f55c82372) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '541e53f376dafd3b90dd5b528895bb64') in 0.028486 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=219f81b403cb35dd41bd50708c1881bc DependenciesID=d0ba5ce7a26e1d765b3561ec4ee32e18 StaticDependenciesID=ce03a13e9c2d2a268ce12f241b3af01e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/pack3/model/textura/Book_2_Mat_metallic.jpg
-  importAddress: Guid(084e1b7f5b99837409e5a3633f601614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Book_2_Mat_metallic.jpg using Guid(084e1b7f5b99837409e5a3633f601614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1393c5476083911ce5b3ac371f6b81d4') in 0.0265109 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73a6cd5eeacde055d5fd68130fcf820c DependenciesID=33e61bffc9c8f9e11e93e9e94c25a0c7 StaticDependenciesID=589937769f739f8e949b54c291f71d2a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/pack3/model/textura/Book_3_Mat_AO.jpg
-  importAddress: Guid(b5e506d9daaca0e4bb56785c5637baee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Book_3_Mat_AO.jpg using Guid(b5e506d9daaca0e4bb56785c5637baee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1d8143b993e2eb19f4764a217c2afe87') in 0.0123992 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6a282f5e32ef9b23d995ec774893a6d DependenciesID=295b50a1a078f1144867487afc4947dd StaticDependenciesID=737cdd5e049caca5f060117bb3ac8103 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/pack3/model/textura/Jar2_roughness.jpg
-  importAddress: Guid(7f292f80b16014844ad18afe7d19eb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Jar2_roughness.jpg using Guid(7f292f80b16014844ad18afe7d19eb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5308172cea066e3b624e97e37bf3da9c') in 0.0229196 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=934f0042f2ad6d4811862ffa1708432d DependenciesID=f3683b35ed58a77b9f2bbef60d620ee9 StaticDependenciesID=5cf1c8a06fc3da8437e2bf9e3106c4b0 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/pack3/model/textura/Chair_AO.jpg
-  importAddress: Guid(ba4c4fe9fd0e9f24e956853871137621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Chair_AO.jpg using Guid(ba4c4fe9fd0e9f24e956853871137621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '16e547eba829f837a709091d9a3d7dcf') in 0.0264186 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24b877e2d8118270c57b5a4f2ad46ab8 DependenciesID=2b513422b64bd666923e1faee8d11f50 StaticDependenciesID=7703afa8f5e3ede07d7c8b1eab160480 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/pack3/model/textura/Jar2_normal.png
-  importAddress: Guid(41f4c3d7926f1234c8191ad09cd4c74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Jar2_normal.png using Guid(41f4c3d7926f1234c8191ad09cd4c74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3c900e0bb08ac5364172cf94bd0877dc') in 0.0215038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2228dec38914633facd130e03fd166e8 DependenciesID=84ccb0dd5a06a0b04152513f28437100 StaticDependenciesID=f46f485b40288dba79c29b98b9a9986d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/pack3/model/textura/Chair_albedo.jpg
-  importAddress: Guid(c8fdfcedf54700f4b8f34bb23c2423df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pack3/model/textura/Chair_albedo.jpg using Guid(c8fdfcedf54700f4b8f34bb23c2423df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a43274c2eff91cb0033e68c74a68ad40') in 0.0353496 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8488c0f1e44d868fa4cd18b4ea84c9a7 DependenciesID=689070690bb3afb63b2de2a786be6c10 StaticDependenciesID=90775698b7602478d1810fee23d2bd1e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Unloading 4766 unused Assets / (132.0 KB). Loaded Objects now: 5381.
+Memory consumption went from 106.7 MB to 106.6 MB.
+Total: 5.291800 ms (FindLiveObjects: 0.398700 ms CreateObjectMapping: 0.320000 ms MarkObjects: 3.888500 ms  DeleteObjects: 0.682600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 14.59 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.782 seconds
+Domain Reload Profiling: 8818ms
+	BeginReloadAssembly (584ms)
+		DisableScriptedObjects (43ms)
+		CreateAndSetChildDomain (180ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (7329ms)
+		LoadAssemblies (7121ms)
+		AnalyzeDomain (351ms)
+			TypeCache.Refresh (38ms)
+			BuildScriptInfoCaches (286ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (782ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 14.15 ms, found 10 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4766 unused Assets / (0.8 MB). Loaded Objects now: 5382.
+Memory consumption went from 107.9 MB to 107.1 MB.
+Total: 8.417200 ms (FindLiveObjects: 0.928500 ms CreateObjectMapping: 0.289200 ms MarkObjects: 5.742900 ms  DeleteObjects: 1.453300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 5.60 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.595 seconds
+Domain Reload Profiling: 1246ms
+	BeginReloadAssembly (201ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (310ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (7ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (596ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 13.53 ms, found 10 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4766 unused Assets / (1.2 MB). Loaded Objects now: 5383.
+Memory consumption went from 109.0 MB to 107.8 MB.
+Total: 7.408100 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.211900 ms MarkObjects: 5.640700 ms  DeleteObjects: 1.174000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 6.54 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 1439ms
+	BeginReloadAssembly (294ms)
+		DisableScriptedObjects (25ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (365ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (7ms)
+			BuildScriptInfoCaches (155ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (598ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 6.06 ms, found 10 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4766 unused Assets / (1.3 MB). Loaded Objects now: 5384.
+Memory consumption went from 110.2 MB to 108.8 MB.
+Total: 6.928700 ms (FindLiveObjects: 1.017300 ms CreateObjectMapping: 0.293500 ms MarkObjects: 4.136800 ms  DeleteObjects: 1.323500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
